@@ -16,3 +16,14 @@ let [one, two, three] = [1, 'hello', true];
 function func(message = "hello") {
     return "hello";
 }
+
+let d;
+d = 10;
+d.toFixed();
+
+d = "string";
+d.toUpperCase();
+
+// type이 바로 리터럴 타입으로 추론됨
+const num = 10; 
+const str = "string";
