@@ -45,3 +45,12 @@ function login(user: User) {
         }
     }
 }
+
+const loading = {
+    state: "LOADING"
+};
+
+const failed = {
+    state: "FAILED",
+    error: {}
+};
